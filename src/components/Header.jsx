@@ -2,9 +2,12 @@ function Header(){
 
 
     return(
-        <header className="grid">
-            <h1 className="text-4xl font-bold uppercase text-indigo-500 mt-5">Desde el Header</h1>
-        </header>
+      
+        <h1 className="font-black text-5xl text-center md:w-2/3 mx-auto">
+            Seguimineto Pacientes {''}
+            <span className="text-indigo-600">Veterinaria 🐶 </span>
+        </h1>
+    
     )
 
 }

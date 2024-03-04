@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect} from 'react'
 
 
-const Formulario = () => {
+const Formulario = ({setPacientes}) => {
   //Usamos array destructuring para extraer los valores del state
   const [nombre, setNombre] = useState('');
   const [propietario, setPropietario] = useState('');
